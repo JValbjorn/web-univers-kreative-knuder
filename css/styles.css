@@ -60,8 +60,12 @@
     position: absolute;
     left: 0;
     width: 200px;
-    background: #edbf9e;
+    background: #fff;
     display: none;
+  }
+
+  header .navbar ul li ul a {
+color: #6e6a6a;
   }
   
   header .navbar ul li ul li {
