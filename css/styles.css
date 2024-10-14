@@ -13,7 +13,6 @@
   
   body {
     font-family: Arial, Helvetica, sans-serif;
-    text-transform: uppercase;
     text-decoration: none;
     min-height: 100vh;
     background:var(--background-color);
@@ -160,10 +159,45 @@ color: #6e6a6a;
 
 
 /* main styling */
-  .paige {
-    background-color: #fbf6f3;
-    position: relative;
+  .test-på-siderne{
+    background-color: #faf9f9;
+    position: center;
+    width: 70%;
+    padding: 100px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    margin-top: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.1);
   }
+
+  .test-på-siderne p, ol {
+margin:10px 0;
+  }
+
+  .test-på-siderne .ol {
+    margin-top:30px;
+font-weight: bold;
+      }
+
+  .test-på-siderne h1 {
+margin:20px 0;
+font-size: 2rem;
+  }
+  
+  .test-på-siderne ul li {
+    margin: 10px 0;
+}
+
+.test-på-siderne ul li {
+    margin-left: 40px ;
+}
+
 
 /* footer styling */
 
