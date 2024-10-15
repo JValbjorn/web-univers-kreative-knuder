@@ -176,6 +176,11 @@ color: #6e6a6a;
     border: 1px solid rgba(0, 0, 0, 0.1);
   }
 
+  a {
+    /* text-decoration:none; */
+    color: #333;
+  }
+
   .tekst-på-siderne p, ol {
 margin-top:15px;
   }
@@ -203,6 +208,24 @@ color: var(--secondary-color);
 h2 {
     margin-top: 20px;
     align-self: flex-start;
+}
+
+.nav-paa-siden {
+    background-color: #c3cfa0;
+    padding: 30px;
+    margin: 30px;
+    text-decoration: none;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.links-paa-siden {
+    display: flex;
+    align-items: stretch;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    
 }
 
 /* billeder/ikoner */
