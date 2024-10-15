@@ -72,6 +72,12 @@ color: #6e6a6a;
     display: none;
   }
 
+  /* billeder/ikoner */
+
+.søg {
+    height: 25px;
+}
+
   @media (max-width: 991px) {
     header {
       padding: 20px;
@@ -112,4 +118,4 @@ color: #6e6a6a;
     #menu-bar:checked ~ .navbar {
       display: block;
     }
-  }
+}

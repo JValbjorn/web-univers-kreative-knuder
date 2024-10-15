@@ -22,7 +22,7 @@
 
 /* main styling */
   .tekst-på-siderne{
-    background-color: #faf9f9;
+    background-color:var(--main-paige);
     width: 70%;
     padding: 100px;
     height: auto;
@@ -73,10 +73,6 @@ h2 {
 
 
 
-/* billeder/ikoner */
 
-.søg {
-    height: 25px;
-}
 
 
