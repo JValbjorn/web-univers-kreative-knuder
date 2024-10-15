@@ -159,7 +159,7 @@ color: #6e6a6a;
 
 
 /* main styling */
-  .test-på-siderne{
+  .tekst-på-siderne{
     background-color: #faf9f9;
     position: center;
     width: 70%;
@@ -176,28 +176,34 @@ color: #6e6a6a;
     border: 1px solid rgba(0, 0, 0, 0.1);
   }
 
-  .test-på-siderne p, ol {
-margin:10px 0;
+  .tekst-på-siderne p, ol {
+margin-top:15px;
   }
 
-  .test-på-siderne .ol {
+  .tekst-på-siderne .ol {
     margin-top:30px;
 font-weight: bold;
       }
 
-  .test-på-siderne h1 {
+   h1 {
 margin:20px 0;
 font-size: 2rem;
+color: var(--secondary-color);
   }
   
-  .test-på-siderne ul li {
+  .tekst-på-siderne ul li {
     margin: 10px 0;
 }
 
-.test-på-siderne ul li {
+.tekst-på-siderne ul li {
     margin-left: 40px ;
+    margin-top: 10px;
 }
 
+h2 {
+    margin-top: 20px;
+    align-self: flex-start;
+}
 
 /* footer styling */
 
