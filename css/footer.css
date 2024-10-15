@@ -1,0 +1,33 @@
+
+
+.footer {
+    background-color: var(--primary-color);
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+
+    color: #fff;
+    text-align: center;
+
+}
+
+.facebook {
+    width:40px;
+}
+
+.insta {
+    width:40px;
+}
+
+.email {
+    width:40px;
+}
+p { 
+    margin: 20px;
+}
+
+.social-footer {
+    display: flex;
+    justify-content:space-evenly;
+}
