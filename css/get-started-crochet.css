@@ -6,6 +6,11 @@
     border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
+.nav-paa-siden p {
+    color:var(--secondary-color) ;
+    font-size: 1.5rem;
+}
+
 .links-paa-siden {
     display: flex;
     align-items: stretch;
@@ -13,5 +18,13 @@
     flex-direction: column;
     flex-wrap: wrap;
     align-content: center;
-    
+    color: #fff;
+}
+
+a {
+    color: #fff;
+}
+
+.nav-paa-siden ul {
+    color: #fff;
 }

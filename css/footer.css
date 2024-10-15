@@ -23,8 +23,10 @@
 .email {
     width:40px;
 }
-p { 
+
+.footer p { 
     margin: 20px;
+    color: #fff;
 }
 
 .social-footer {
