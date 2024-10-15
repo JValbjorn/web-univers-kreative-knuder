@@ -1,0 +1,17 @@
+.nav-paa-siden {
+    background-color: #c3cfa0;
+    padding: 30px;
+    margin: 30px;
+    text-decoration: none;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.links-paa-siden {
+    display: flex;
+    align-items: stretch;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    
+}
