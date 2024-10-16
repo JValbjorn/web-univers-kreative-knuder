@@ -1,41 +1,43 @@
 .nav-paa-siden {
-    background-color: #c3cfa0;
-    padding: 30px;
-    margin: 30px;
-    text-decoration: none;
-    border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: #c3cfa0;
+  padding: 30px;
+  margin: 30px;
+  text-decoration: none;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  max-width: 350px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .nav-paa-siden p {
-    color:var(--secondary-color) ;
-    font-size: 1.5rem;
+  color: var(--secondary-color);
+  font-size: 1.5rem;
 }
 
 .links-paa-siden {
-    display: flex;
-    align-items: stretch;
-    justify-content: flex-start;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: center;
-    color: #fff;
+  display: flex;
+  align-items: stretch;
+  justify-content: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  color: #fff;
 }
 
 a {
-    color: #fff;
+  color: #fff;
 }
 
 .nav-paa-siden ul {
-    color: #fff;
+  color: #fff;
 }
 
 .how-to {
-   display: flex;
-   justify-content: center;
-   margin-top: 40px;
-   
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
 }
 
 .grab {
-margin: 0 5px;
+  margin: 0 5px;
 }

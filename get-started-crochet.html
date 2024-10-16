@@ -54,6 +54,7 @@
     </header>
     <main>
       <section class="tekst-på-siderne">
+      <article>
         <h1>Begynderguide til Hækling: Start Din Håndarbejdsrejse</h1>
         <p>
           Hækling er en givende og kreativ hobby, der giver dig mulighed for at
@@ -247,26 +248,25 @@
             </li>
           </ul>
         </ol>
-      </section>
+      </article>
 
-      <aside class="tekst-på-siderne">
+      <aside class="comments">
         <h3>Skriv en Kommentar</h3>
     <form action="">
         <textarea id="kommentar" name="kommentar" rows="8" cols="45" placeholder="Din kommentar..." aria-required="true"></textarea>
-       <p><input id="author" name="author" type="text" value="" placeholder="Navn*" size="30" aria-required="true"></p>
-       <p><input id="email" name="email" type="text" value="" placeholder="E-mail*" size="30" aria-required="true"></p>
        
-    <p><input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes">
-        <label for="wp-comment-cookies-consent">Gem mit navn og mail til næste gang jeg kommenterer.</label>
-        <p><input name="submit" type="submit" id="submit" class="submit" value="Submit"></p>
-    </p>
-    
-    </form>
-    
-    
-    
-    </aside>
+       <div class="input-til-kommentar"> 
+      <p><input id="name" name="name" type="text" value="" placeholder="Navn*" size="30" aria-required="true"></p>
+       <p><input id="email" name="email" type="text" value="" placeholder="E-mail*" size="30" aria-required="true"></p>
+      </div>
 
+    <p><input id="consent" name="consent" type="checkbox" value="yes">
+        <label for="consent">Gem mit navn og mail til næste gang jeg kommenterer.</label>
+        <p class="submit"><input name="submit" type="submit" id="submit" class="submit" value="Submit"></p>
+    </p>
+    </form>
+    </aside>
+  </section>
     <footer>
       <section class="footer">
           <figure class="social-footer">
@@ -277,6 +277,7 @@
       <p>©2024 - Julie Valbjørn | multimediedesign - Webunivers</p>
       
       </section>
+
       </footer>
 
     </main>
