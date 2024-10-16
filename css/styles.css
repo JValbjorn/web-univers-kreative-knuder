@@ -35,6 +35,7 @@ h3 {
 
 ol {
   color: var(--secondary-color);
+  margin-left: 16px;
 }
 
 p {
