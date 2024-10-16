@@ -28,3 +28,14 @@ a {
 .nav-paa-siden ul {
     color: #fff;
 }
+
+.how-to {
+   display: flex;
+   justify-content: center;
+   margin-top: 40px;
+   
+}
+
+.grab {
+margin: 0 5px;
+}
