@@ -24,7 +24,7 @@
   .tekst-på-siderne{
     background-color:var(--main-paige);
     width: 70%;
-    padding: 100px;
+    padding: 40px 100px;
     height: auto;
     display: flex;
     justify-content: center;
