@@ -15,6 +15,10 @@
   font-weight: bold;
 }
 
+.nav-paa-siden a:hover {
+    color: var(--secondary-color);
+}
+
 .links-paa-siden {
   display: flex;
   align-items: stretch;
