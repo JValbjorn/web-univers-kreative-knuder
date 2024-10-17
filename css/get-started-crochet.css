@@ -10,8 +10,9 @@
 }
 
 .nav-paa-siden p {
-  color: var(--secondary-color);
+  color: #fff;
   font-size: 1.5rem;
+  font-weight: bold;
 }
 
 .links-paa-siden {
